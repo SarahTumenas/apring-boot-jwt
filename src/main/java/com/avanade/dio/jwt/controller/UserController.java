@@ -16,7 +16,7 @@ public class UserController {
         this.userDetailsService = userDetailsService;
     }
 
-    @RequestMapping("/all users")
+    @RequestMapping("/all-users")
     public List<UserData> listAllUsers(){
         return userDetailsService.listUsers();
     }
